@@ -3,6 +3,7 @@
 }
 
 div{
+    /* caracteristicas dos quadrados da grade */
     width: 16px;
     height: 16px;
     display: grid;
