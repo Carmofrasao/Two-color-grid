@@ -9,3 +9,7 @@ div{
     display: grid;
     border: 2px solid black;
 }
+
+#btn-grade{
+    margin-bottom: 30px;
+}

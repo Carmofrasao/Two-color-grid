@@ -1,19 +1,29 @@
 
 
 
-
 const divs = document.querySelector('#conteiner');
-
+const btn_grade = document.querySelector('#btn-grade');
 let autos = '';
+let tam_grade = 0;
 
-for(let l = 0; l < 75; l++){
-    for(let i = 0; i < 75; i++){
-        // criar grade 75x75, cada div é um quadrado
-        const grade = document.createElement('div');
-        grade.classList.add('grade');
-        divs.appendChild(grade);
+btn_grade.addEventListener('click', () => {
+    for(child of divs.children){
+        divs.removeChild(child);
     }
-    autos += 'auto '; 
-}
-// dividir a grade em colunas, cada 'auto é uma coluna'
-divs.style.gridTemplateColumns=autos;
+    tam_grade = prompt("Digite o tamanho da grade:");
+    for(let l = 0; l < tam_grade; l++){
+        for(let i = 0; i < tam_grade; i++){
+            // criar grade, cada div é um quadrado
+            const grade = document.createElement('div');
+            grade.classList.add('grade');
+            grade.onmouseover=()=>{
+                grade.style.border = "2px solid purple";
+            };
+            divs.appendChild(grade);
+        }
+        autos += 'auto '; 
+    }
+
+    // dividir a grade em colunas, cada 'auto' é uma coluna
+    divs.style.gridTemplateColumns=autos;
+})
