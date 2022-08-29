@@ -1,8 +1,8 @@
 # Grade de duas cores
 
-Feito por Anderson Frasão
+Código feito como forma de aprendizado para a linguagem de programação java script.
 
-Código feito para apredizado de Java script
+Feito por Anderson Frasão
 
 Site que cria uma grade que muda de cor ao passar o mouse por cima dela.
 
