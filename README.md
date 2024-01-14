@@ -1,9 +1,9 @@
-# Grade de duas cores
+# Two-color grid
 
-Código feito como forma de aprendizado para a linguagem de programação java script.
+Code made as a way of learning the java script programming language.
 
-Feito por Anderson Frasão
+Made by Anderson Frasão
 
-Site que cria uma grade que muda de cor ao passar o mouse por cima dela.
+Site that creates a grid that changes color when you hover over it.
 
-https://carmofrasao.github.io/grade-duo-color/
+[Site](https://carmofrasao.github.io/grade-duo-color/)
