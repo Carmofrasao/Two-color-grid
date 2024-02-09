@@ -6,4 +6,4 @@ Made by Anderson Frasão
 
 Site that creates a grid that changes color when you hover over it.
 
-[Site](https://carmofrasao.github.io/grade-duo-color/)
+[Site](https://carmofrasao.github.io/Two-color-grid/)
